@@ -2262,6 +2262,11 @@ dotenv-expand@^8.0.1:
   resolved "https://registry.npmjs.org/dotenv-expand/-/dotenv-expand-8.0.3.tgz"
   integrity sha512-SErOMvge0ZUyWd5B0NXMQlDkN+8r+HhVUsxgOO7IoPDOdDRD2JjExpN6y3KnFR66jsJMwSn1pqIivhU5rcJiNg==
 
+dotenv@16.0.3:
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.3.tgz#115aec42bac5053db3c456db30cc243a5a836a07"
+  integrity sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==
+
 dotenv@^16.0.0:
   version "16.0.1"
   resolved "https://registry.npmjs.org/dotenv/-/dotenv-16.0.1.tgz"
@@ -2713,12 +2718,12 @@ eslint-config-prettier@^8.5.0:
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.5.0.tgz"
   integrity sha512-obmWKLUNCnhtQRKc+tmnYuQl0pFU1ibYJQ5BGhTVB08bHe9wC8qUeG7c08dj9XX+AuPj1YSGSQIHl1pnDHZR0Q==
 
-eslint-config-turbo@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/eslint-config-turbo/-/eslint-config-turbo-0.0.4.tgz"
-  integrity sha512-HErPS/wfWkSdV9Yd2dDkhZt3W2B78Ih/aWPFfaHmCMjzPalh+5KxRRGTf8MOBQLCebcWJX0lP1Zvc1rZIHlXGg==
+eslint-config-turbo@^1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-turbo/-/eslint-config-turbo-1.11.1.tgz#f480f1f23955978b25462e514dde354eb66f7088"
+  integrity sha512-F0w5nusZ3SMSXS+ns/f0GLiRmLyP0+20Nd1xPgRXxJSW3UCsurysuqfCjo4VwSIVK2mfkDSdrn6/+JxV3WZgiw==
   dependencies:
-    eslint-plugin-turbo "0.0.4"
+    eslint-plugin-turbo "1.11.1"
 
 eslint-plugin-prettier@^4.2.1:
   version "4.2.1"
@@ -2727,10 +2732,12 @@ eslint-plugin-prettier@^4.2.1:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-turbo@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/eslint-plugin-turbo/-/eslint-plugin-turbo-0.0.4.tgz"
-  integrity sha512-dfmYE/iPvoJInQq+5E/0mj140y/rYwKtzZkn3uVK8+nvwC5zmWKQ6ehMWrL4bYBkGzSgpOndZM+jOXhPQ2m8Cg==
+eslint-plugin-turbo@1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-turbo/-/eslint-plugin-turbo-1.11.1.tgz#f3e201ced39fd99dbd3eccbe08b99a6a5fee1378"
+  integrity sha512-QegEzLp9CIsDVQOSSjvEl6QUUGpb7Hj9IdFdgz7OHBYzhCArY5z+Q3y+LO6jn1MSkzGUteGNjLhrlkjXadePCA==
+  dependencies:
+    dotenv "16.0.3"
 
 eslint-scope@^5.1.1:
   version "5.1.1"
